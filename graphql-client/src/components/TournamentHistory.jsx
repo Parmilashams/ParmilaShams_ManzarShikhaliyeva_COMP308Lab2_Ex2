@@ -28,7 +28,7 @@ function TournamentHistory() {
   };
 
   const formatDate = (dateValue) => {
-    if (!dateValue) return 'No Date';
+   if (!dateValue) return "No Date Available";
 
     const date = new Date(Number(dateValue));
 
