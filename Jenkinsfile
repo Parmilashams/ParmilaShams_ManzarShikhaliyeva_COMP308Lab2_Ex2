@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/ParmilaShams/ParmilaShams_ManzarShikhaliyeva_COMP308Lab2_Ex2.git'
+                git branch: 'main', url: 'https://github.com/ParmilaShams/ParmilaShams_ManzarShikhaliyeva_COMP308Lab2_Ex2.git'
             }
         }
 
